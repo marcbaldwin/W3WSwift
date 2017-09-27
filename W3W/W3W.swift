@@ -7,40 +7,33 @@ public enum W3W {
 
 extension W3W: TargetType {
 
-    public var baseURL: URL { return URL(string: "https://api.what3words.com/v2")! }
+    public var baseURL: URL {
+        return URL(string: "https://api.what3words.com/v2")!
+    }
 
     public var path: String {
         switch self {
-        case .forward(_): return "/forward"
+        case .forward: return "/forward"
         }
     }
 
     public var method: Moya.Method {
-        switch self {
-        case .forward(_): return .get
-        }
-    }
-
-    public var parameters: [String : Any]? {
-        switch self {
-        case .forward(let address, let key): return ["addr" : address, "key" : key]
-        }
-    }
-
-    public var parameterEncoding: ParameterEncoding {
-        return URLEncoding.default
+        return .get
     }
 
     public var task: Task {
         switch self {
-        case .forward(_): return .request
+        case let .forward(address, key):
+            return .requestParameters(parameters: ["addr" : address, "key" : key], encoding: URLEncoding.default)
         }
     }
 
+    public var headers: [String : String]? {
+        return nil
+    }
+
     public var sampleData: Data {
-        switch self {
-        case .forward(_): return "".data(using: .utf8)!
-        }
+        return "".data(using: .utf8)!
     }
 }
 

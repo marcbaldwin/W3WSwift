@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "W3W"
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
   s.summary      = "Swift3 What3Words API client"
   s.description  = <<-EOS
   What3Words API Client https://docs.what3words.com/api/v2/
@@ -14,9 +14,9 @@ Pod::Spec.new do |s|
 
   s.subspec "Core" do |ss|
     ss.source_files  = "W3W/"
-    ss.dependency "Moya", "~> 8.0.2"
+    ss.dependency 'Moya', '~> 9.0'
 
-    ss.framework  = "Foundation"
+    ss.framework  = 'Foundation'
   end
 
 end

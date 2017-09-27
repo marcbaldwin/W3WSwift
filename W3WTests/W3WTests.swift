@@ -19,7 +19,7 @@ class W3WTests: XCTestCase {
             .filterSuccessfulStatusCodes()
             .mapJSON()
             .subscribe(
-                onNext: { result in
+                onSuccess: { result in
                     print(result)
                     expectation.fulfill()
                 },
