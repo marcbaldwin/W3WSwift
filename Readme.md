@@ -12,7 +12,7 @@ provider.request(.forward(address: "index.home.raft", key: "XXX123"))
     .filterSuccessfulStatusCodes()
     .mapJSON()
     .subscribe(
-      onNext: { result in
+      onSuccess: { result in
         print(result)
       },
       onError: { error in
