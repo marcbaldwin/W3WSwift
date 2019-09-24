@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
   s.subspec "Core" do |ss|
     ss.source_files  = "W3W/"
     ss.framework  = 'Foundation'
-    ss.dependency 'Moya', '~> 10.0'
+    ss.dependency 'Moya', '~> 13'
   end
 
 end

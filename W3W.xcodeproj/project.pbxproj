@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		18F5F3DC564DBA2416D003B6 /* Pods_W3WTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60C6D9DE2A1E15FFC15B68A0 /* Pods_W3WTests.framework */; };
+		63E524F658BAB23D1A948DFA /* Pods_W3W_W3WTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 149A37CE9BBDFFE345C3B7CD /* Pods_W3W_W3WTests.framework */; };
 		A06F38F31E7017E3006355CA /* W3W.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A06F38E91E7017E3006355CA /* W3W.framework */; };
 		A06F38F81E7017E3006355CA /* W3WTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A06F38F71E7017E3006355CA /* W3WTests.swift */; };
 		A06F38FA1E7017E3006355CA /* W3W.h in Headers */ = {isa = PBXBuildFile; fileRef = A06F38EC1E7017E3006355CA /* W3W.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -26,9 +26,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		149A37CE9BBDFFE345C3B7CD /* Pods_W3W_W3WTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_W3W_W3WTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C54406EEB1C56EE0C82D065 /* Pods_W3W.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_W3W.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		60C6D9DE2A1E15FFC15B68A0 /* Pods_W3WTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_W3WTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7370A0137A614993BE6A036A /* Pods-W3W-W3WTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-W3W-W3WTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-W3W-W3WTests/Pods-W3W-W3WTests.release.xcconfig"; sourceTree = "<group>"; };
 		8AD611D87C24EC8C11327FB0 /* Pods-W3WTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-W3WTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-W3WTests/Pods-W3WTests.release.xcconfig"; sourceTree = "<group>"; };
+		95E5DA67C13E98F4089D6F4E /* Pods-W3W-W3WTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-W3W-W3WTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-W3W-W3WTests/Pods-W3W-W3WTests.debug.xcconfig"; sourceTree = "<group>"; };
 		96A3648D169C7A6CD5DDEF6E /* Pods-W3W.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-W3W.release.xcconfig"; path = "Pods/Target Support Files/Pods-W3W/Pods-W3W.release.xcconfig"; sourceTree = "<group>"; };
 		A06F38E91E7017E3006355CA /* W3W.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = W3W.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A06F38EC1E7017E3006355CA /* W3W.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = W3W.h; sourceTree = "<group>"; };
@@ -55,7 +57,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A06F38F31E7017E3006355CA /* W3W.framework in Frameworks */,
-				18F5F3DC564DBA2416D003B6 /* Pods_W3WTests.framework in Frameworks */,
+				63E524F658BAB23D1A948DFA /* Pods_W3W_W3WTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -69,6 +71,8 @@
 				96A3648D169C7A6CD5DDEF6E /* Pods-W3W.release.xcconfig */,
 				E926E920D12795E0154A2D65 /* Pods-W3WTests.debug.xcconfig */,
 				8AD611D87C24EC8C11327FB0 /* Pods-W3WTests.release.xcconfig */,
+				95E5DA67C13E98F4089D6F4E /* Pods-W3W-W3WTests.debug.xcconfig */,
+				7370A0137A614993BE6A036A /* Pods-W3W-W3WTests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -116,7 +120,7 @@
 			isa = PBXGroup;
 			children = (
 				4C54406EEB1C56EE0C82D065 /* Pods_W3W.framework */,
-				60C6D9DE2A1E15FFC15B68A0 /* Pods_W3WTests.framework */,
+				149A37CE9BBDFFE345C3B7CD /* Pods_W3W_W3WTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -144,7 +148,6 @@
 				A06F38E51E7017E3006355CA /* Frameworks */,
 				A06F38E61E7017E3006355CA /* Headers */,
 				A06F38E71E7017E3006355CA /* Resources */,
-				D378F3E0E71160A3F692A377 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -164,7 +167,6 @@
 				A06F38EF1E7017E3006355CA /* Frameworks */,
 				A06F38F01E7017E3006355CA /* Resources */,
 				1C1A33B6B8952ECB35F4D03D /* [CP] Embed Pods Frameworks */,
-				557BB4F11700192EA08C39EA /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -260,7 +262,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-W3WTests/Pods-W3WTests-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-W3W-W3WTests/Pods-W3W-W3WTests-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/Moya/Moya.framework",
 				"${BUILT_PRODUCTS_DIR}/Result/Result.framework",
@@ -275,7 +277,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-W3WTests/Pods-W3WTests-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-W3W-W3WTests/Pods-W3W-W3WTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		210F90C673ED788DE2974123 /* [CP] Check Pods Manifest.lock */ = {
@@ -289,41 +291,11 @@
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-W3WTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-W3W-W3WTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		557BB4F11700192EA08C39EA /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-W3WTests/Pods-W3WTests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		D378F3E0E71160A3F692A377 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-W3W/Pods-W3W-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -516,7 +488,7 @@
 		};
 		A06F39011E7017E3006355CA /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E926E920D12795E0154A2D65 /* Pods-W3WTests.debug.xcconfig */;
+			baseConfigurationReference = 95E5DA67C13E98F4089D6F4E /* Pods-W3W-W3WTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				DEVELOPMENT_TEAM = HYV9U93759;
@@ -531,7 +503,7 @@
 		};
 		A06F39021E7017E3006355CA /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8AD611D87C24EC8C11327FB0 /* Pods-W3WTests.release.xcconfig */;
+			baseConfigurationReference = 7370A0137A614993BE6A036A /* Pods-W3W-W3WTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				DEVELOPMENT_TEAM = HYV9U93759;
