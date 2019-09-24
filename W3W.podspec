@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "W3W"
-  s.version      = "0.0.3"
+  s.version      = "1.0.0"
   s.summary      = "Swift3 What3Words API client"
   s.description  = <<-EOS
   What3Words API Client https://docs.what3words.com/api/v2/
