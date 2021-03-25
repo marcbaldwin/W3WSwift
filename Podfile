@@ -1,9 +1,10 @@
-platform :ios, '9.0'
+platform :ios, '10.0'
+use_frameworks!
+inhibit_all_warnings!
 
 target 'W3W' do
-  use_frameworks!
 
-  pod 'Moya/RxSwift', '13.0.1'
+  pod 'Moya', '~> 14'
 
   target 'W3WTests' do
   end
